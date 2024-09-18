@@ -1,0 +1,53 @@
+
+@font-face {
+    font-family: fbold;
+    src: url("../font/probold.ttf");
+  }
+  *{
+    font-size: 2rem;
+    font-family: fbold;
+    }
+#btn
+{
+    text-align:center;
+    background-color:orangered;
+    margin:0.5rem;
+    color:white;
+    height:50px;
+    width:150px;
+    font-family:Berlin Sans FB;
+    font-size:1.5rem;
+    letter-spacing:0.1rem;
+    margin-left:40%;
+}
+
+#btn:hover
+{
+    background-color: rgb(255, 255, 255, 0.931);
+    color:rgb(0, 0, 0);
+    border:1px solid rgb(255, 255, 255);
+}
+
+.ruler
+{
+    color:orangered;
+}
+.nb{
+    font-size: 200px;
+}
+/* video{
+    position:relative;
+    display:block;
+    width:100%; 
+  }
+  .float-right{
+    position:absolute;
+  }
+  h2{
+    top: 150vh;
+    right:600px;
+  }
+  a{
+    top: 150vh;
+    right:600px;
+  } */
