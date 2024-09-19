@@ -3,10 +3,12 @@
     font-family: fbold;
     src: url("../font/probold.ttf");
   }
+
   *{
     font-size: 2rem;
     font-family: fbold;
     }
+
 #btn
 {
     text-align:center;
@@ -18,8 +20,7 @@
     font-family:Berlin Sans FB;
     font-size:1.5rem;
     letter-spacing:0.1rem;
-    margin-left:40%;
-}
+  }
 
 #btn:hover
 {
@@ -51,3 +52,14 @@
     top: 150vh;
     right:600px;
   } */
+
+   h5{
+    font-size: 5rem;
+   }
+
+   .as
+   {
+    font-size:2px;
+   }
+
+   
