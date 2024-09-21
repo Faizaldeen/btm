@@ -1,13 +1,15 @@
 
-@font-face {
+@font-face 
+{
     font-family: fbold;
     src: url("../font/probold.ttf");
-  }
+}
 
-  *{
+*
+{
     font-size: 2rem;
     font-family: fbold;
-    }
+}
 
 #btn
 {
@@ -20,7 +22,7 @@
     font-family:Berlin Sans FB;
     font-size:1.5rem;
     letter-spacing:0.1rem;
-  }
+}
 
 #btn:hover
 {
@@ -33,27 +35,38 @@
 {
     color:orangered;
 }
-.nb{
+
+.nb
+{
     font-size: 200px;
 }
-/* video{
+
+/* video
+{
     position:relative;
     display:block;
     width:100%; 
-  }
-  .float-right{
+}
+
+ .float-right
+  {
     position:absolute;
   }
-  h2{
+
+  h2
+  {
     top: 150vh;
     right:600px;
   }
-  a{
+
+  a
+  {
     top: 150vh;
     right:600px;
   } */
 
-   h5{
+   h5
+   {
     font-size: 5rem;
    }
 
@@ -62,4 +75,142 @@
     font-size:2px;
    }
 
-   
+   #heads
+   {
+    position:sticky;
+    top:10px;
+    left:10px;
+    z-index:1;
+   }
+
+  /* #about
+  {
+    transform: translateX(-90px);
+    opacity: 1;
+    transition:opacity 1s ease-in-out;
+  }   
+
+  #about.visible
+  {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+
+  #duke 
+  {
+ transform: translateX(-90px);
+ transition:opacity 5s ease-in-out;
+  }
+
+  #rc 
+  {
+    transform: translateX(90px);
+    transition:opacity 5s ease-in-out;
+  }
+
+  #duke.visible 
+  {
+ transform: translateX(0px);
+  }
+
+  #rc.visible 
+  {
+    transform: translateX(0px);
+  }
+ */
+
+ #about {
+  opacity: 0; /* Change this to 0 */
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out; /* Add transform to the transition */
+}
+
+#about, #duke, #rc {
+  transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+#about {
+  opacity: 0; /* Start hidden */
+}
+
+#about.visible {
+  opacity: 1; /* Fade in */
+}
+
+#duke {
+  transform: translateX(-90px);
+  opacity: 0; /* Start hidden */
+}
+
+#duke.visible {
+  transform: translateX(0px);
+  opacity: 1; /* Fade in */
+}
+
+#rc {
+  transform: translateX(90px);
+  opacity: 0; /* Start hidden */
+}
+
+#rc.visible {
+  transform: translateX(0px);
+  opacity: 1; /* Fade in */
+}
+
+
+
+
+
+
+#about1 {
+  opacity: 0; /* Change this to 0 */
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out; /* Add transform to the transition */
+}
+
+#about1, #duke1 {
+  transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+#about1 {
+  opacity: 0; /* Start hidden */
+}
+
+#about1.visible {
+  opacity: 1; /* Fade in */
+}
+
+#duke1-1, #duke1-2, #duke1-3, #duke1-4 {
+  transform: translateX(-90px);
+  opacity: 0; /* Start hidden */
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+#duke1-1.visible, #duke1-2.visible, #duke1-3.visible, #duke1-4.visible {
+  transform: translateX(0px);
+  opacity: 1; /* Fade in */
+}
+
+
+  /* .bikers
+  {
+    animation: 5s ease-in-out 1s 1 normal forwards bikers;
+  }
+
+  @keyframes bikers
+  {
+    0%
+    {
+      transform:translateX(0);
+    }
+    50%
+    {
+      transform:translateX(100px);
+    }
+    75%
+    {
+      transform:translatey(-100px);
+    }
+    100%
+    {
+      transform:translateX(0);
+    }
+  } */
